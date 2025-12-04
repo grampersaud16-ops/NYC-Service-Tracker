@@ -1,0 +1,482 @@
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=Generator content="Microsoft Word 15 (filtered)">
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Aptos;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:8.0pt;
+	margin-left:0in;
+	line-height:115%;
+	font-size:12.0pt;
+	font-family:"Aptos",sans-serif;}
+.MsoChpDefault
+	{font-family:"Aptos",sans-serif;}
+.MsoPapDefault
+	{margin-bottom:8.0pt;
+	line-height:115%;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+-->
+</style>
+
+</head>
+
+<body lang=EN-US style='word-wrap:break-word'>
+
+<div class=WordSection1>
+
+<p class=MsoNormal>&lt;!DOCTYPE html&gt;</p>
+
+<p class=MsoNormal>&lt;html lang=&quot;en&quot;&gt;</p>
+
+<p class=MsoNormal>&lt;head&gt;</p>
+
+<p class=MsoNormal>&lt;meta charset=&quot;UTF-8&quot;&gt;</p>
+
+<p class=MsoNormal>&lt;meta name=&quot;viewport&quot;
+content=&quot;width=device-width, initial-scale=1.0&quot;&gt;</p>
+
+<p class=MsoNormal>&lt;title&gt;FIRE RESPONSE INC SERVICE CALLS&lt;/title&gt;</p>
+
+<p class=MsoNormal>&lt;style&gt;</p>
+
+<p class=MsoNormal>  body { </p>
+
+<p class=MsoNormal>    font-family: Arial, sans-serif; </p>
+
+<p class=MsoNormal>    background-color: pink; </p>
+
+<p class=MsoNormal>    margin: 0; </p>
+
+<p class=MsoNormal>    padding: 20px; </p>
+
+<p class=MsoNormal>  }</p>
+
+<p class=MsoNormal>  h1 { </p>
+
+<p class=MsoNormal>    text-align: center; </p>
+
+<p class=MsoNormal>    color: #fff; </p>
+
+<p class=MsoNormal>    background-color: red; </p>
+
+<p class=MsoNormal>    padding: 15px; </p>
+
+<p class=MsoNormal>    border-radius: 10px; </p>
+
+<p class=MsoNormal>  }</p>
+
+<p class=MsoNormal>  .tracker-container {</p>
+
+<p class=MsoNormal>    display: flex; </p>
+
+<p class=MsoNormal>    justify-content: space-between; </p>
+
+<p class=MsoNormal>    flex-wrap: wrap; </p>
+
+<p class=MsoNormal>    margin-top: 20px;</p>
+
+<p class=MsoNormal>  }</p>
+
+<p class=MsoNormal>  .borough {</p>
+
+<p class=MsoNormal>    width: 23%; </p>
+
+<p class=MsoNormal>    background: #fff; </p>
+
+<p class=MsoNormal>    border-radius: 10px; </p>
+
+<p class=MsoNormal>    padding: 10px; </p>
+
+<p class=MsoNormal>    margin-bottom: 20px;</p>
+
+<p class=MsoNormal>    box-shadow: 2px 2px 8px rgba(0,0,0,0.2);</p>
+
+<p class=MsoNormal>  }</p>
+
+<p class=MsoNormal>  .borough h2 {</p>
+
+<p class=MsoNormal>    text-align: center; </p>
+
+<p class=MsoNormal>    margin-top: 0;</p>
+
+<p class=MsoNormal>  }</p>
+
+<p class=MsoNormal>  table {</p>
+
+<p class=MsoNormal>    width: 100%;</p>
+
+<p class=MsoNormal>    border-collapse: collapse;</p>
+
+<p class=MsoNormal>    margin-bottom: 10px;</p>
+
+<p class=MsoNormal>  }</p>
+
+<p class=MsoNormal>  th, td {</p>
+
+<p class=MsoNormal>    border: 1px solid #ccc;</p>
+
+<p class=MsoNormal>    padding: 5px;</p>
+
+<p class=MsoNormal>    text-align: left;</p>
+
+<p class=MsoNormal>  }</p>
+
+<p class=MsoNormal>  select, input, textarea {</p>
+
+<p class=MsoNormal>    width: 100%;</p>
+
+<p class=MsoNormal>    box-sizing: border-box;</p>
+
+<p class=MsoNormal>    margin-bottom: 5px;</p>
+
+<p class=MsoNormal>  }</p>
+
+<p class=MsoNormal>  .status-open { background-color: red; color: white; }</p>
+
+<p class=MsoNormal>  .status-completed { background-color: green; color: white;
+}</p>
+
+<p class=MsoNormal>  .status-pending { background-color: orange; color: white;
+}</p>
+
+<p class=MsoNormal>  .status-to-return { background-color: purple; color:
+white; }</p>
+
+<p class=MsoNormal>  button { padding: 5px; width: 100%; margin-bottom: 10px;
+background-color: red; color: white; border: none; border-radius: 5px; cursor:
+pointer; }</p>
+
+<p class=MsoNormal>&lt;/style&gt;</p>
+
+<p class=MsoNormal>&lt;/head&gt;</p>
+
+<p class=MsoNormal>&lt;body&gt;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>&lt;h1&gt;FIRE RESPONSE INC SERVICE CALLS&lt;/h1&gt;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>&lt;div class=&quot;tracker-container&quot;
+id=&quot;tracker-container&quot;&gt;</p>
+
+<p class=MsoNormal>  &lt;div class=&quot;borough&quot;
+id=&quot;Queens&quot;&gt;&lt;h2&gt;Queens&lt;/h2&gt;&lt;/div&gt;</p>
+
+<p class=MsoNormal>  &lt;div class=&quot;borough&quot;
+id=&quot;Brooklyn&quot;&gt;&lt;h2&gt;Brooklyn&lt;/h2&gt;&lt;/div&gt;</p>
+
+<p class=MsoNormal>  &lt;div class=&quot;borough&quot;
+id=&quot;Manhattan&quot;&gt;&lt;h2&gt;Manhattan&lt;/h2&gt;&lt;/div&gt;</p>
+
+<p class=MsoNormal>  &lt;div class=&quot;borough&quot;
+id=&quot;Bronx&quot;&gt;&lt;h2&gt;Bronx&lt;/h2&gt;&lt;/div&gt;</p>
+
+<p class=MsoNormal>&lt;/div&gt;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>&lt;script&gt;</p>
+
+<p class=MsoNormal>let jobs = JSON.parse(localStorage.getItem('nycJobs')) ||
+{Queens: [], Brooklyn: [], Manhattan: [], Bronx: []};</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>function saveJobs() {</p>
+
+<p class=MsoNormal>  localStorage.setItem('nycJobs', JSON.stringify(jobs));</p>
+
+<p class=MsoNormal>}</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>function createBoroughSection(boroughDiv, boroughName) {</p>
+
+<p class=MsoNormal>  const form = document.createElement('div');</p>
+
+<p class=MsoNormal>  form.innerHTML = `</p>
+
+<p class=MsoNormal>    &lt;input type=&quot;text&quot; placeholder=&quot;Job
+site&quot; class=&quot;job-site&quot;&gt;</p>
+
+<p class=MsoNormal>    &lt;input type=&quot;text&quot;
+placeholder=&quot;Trouble/issues&quot; class=&quot;job-trouble&quot;&gt;</p>
+
+<p class=MsoNormal>    &lt;select class=&quot;job-status&quot;&gt;</p>
+
+<p class=MsoNormal>      &lt;option
+value=&quot;open&quot;&gt;Open&lt;/option&gt;</p>
+
+<p class=MsoNormal>      &lt;option
+value=&quot;completed&quot;&gt;Completed&lt;/option&gt;</p>
+
+<p class=MsoNormal>      &lt;option
+value=&quot;pending&quot;&gt;Pending&lt;/option&gt;</p>
+
+<p class=MsoNormal>      &lt;option value=&quot;to-return&quot;&gt;To
+Return&lt;/option&gt;</p>
+
+<p class=MsoNormal>    &lt;/select&gt;</p>
+
+<p class=MsoNormal>    &lt;textarea placeholder=&quot;Notes/outcomes&quot;
+class=&quot;job-notes&quot;&gt;&lt;/textarea&gt;</p>
+
+<p class=MsoNormal>    &lt;button&gt;Add Job&lt;/button&gt;</p>
+
+<p class=MsoNormal>    &lt;button class=&quot;sort-btn&quot;&gt;Sort by
+Status&lt;/button&gt;</p>
+
+<p class=MsoNormal>  `;</p>
+
+<p class=MsoNormal>  boroughDiv.appendChild(form);</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>  const table = document.createElement('table');</p>
+
+<p class=MsoNormal>  table.innerHTML = `</p>
+
+<p class=MsoNormal>    &lt;thead&gt;</p>
+
+<p class=MsoNormal>      &lt;tr&gt;</p>
+
+<p class=MsoNormal>        &lt;th&gt;Job Site&lt;/th&gt;</p>
+
+<p class=MsoNormal>        &lt;th&gt;Trouble/Issues&lt;/th&gt;</p>
+
+<p class=MsoNormal>        &lt;th&gt;Status&lt;/th&gt;</p>
+
+<p class=MsoNormal>        &lt;th&gt;Notes&lt;/th&gt;</p>
+
+<p class=MsoNormal>      &lt;/tr&gt;</p>
+
+<p class=MsoNormal>    &lt;/thead&gt;</p>
+
+<p class=MsoNormal>    &lt;tbody
+class=&quot;job-table-body&quot;&gt;&lt;/tbody&gt;</p>
+
+<p class=MsoNormal>  `;</p>
+
+<p class=MsoNormal>  boroughDiv.appendChild(table);</p>
+
+<p class=MsoNormal>  const tbody = table.querySelector('.job-table-body');</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>  form.querySelector('button').addEventListener('click', ()
+=&gt; {</p>
+
+<p class=MsoNormal>    const site =
+form.querySelector('.job-site').value.trim();</p>
+
+<p class=MsoNormal>    const trouble =
+form.querySelector('.job-trouble').value.trim();</p>
+
+<p class=MsoNormal>    const status = form.querySelector('.job-status').value;</p>
+
+<p class=MsoNormal>    const notes =
+form.querySelector('.job-notes').value.trim();</p>
+
+<p class=MsoNormal>    if (!site || !trouble) return alert('Please enter Job
+Site and Trouble/Issues');</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>    const job = {site, trouble, status, notes};</p>
+
+<p class=MsoNormal>    jobs[boroughName].push(job);</p>
+
+<p class=MsoNormal>    saveJobs();</p>
+
+<p class=MsoNormal>    renderJobRow(tbody, job, boroughName);</p>
+
+<p class=MsoNormal>    form.querySelector('.job-site').value = '';</p>
+
+<p class=MsoNormal>    form.querySelector('.job-trouble').value = '';</p>
+
+<p class=MsoNormal>    form.querySelector('.job-notes').value = '';</p>
+
+<p class=MsoNormal>  });</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>  form.querySelector('.sort-btn').addEventListener('click',
+() =&gt; {</p>
+
+<p class=MsoNormal>    jobs[boroughName].sort((a,b) =&gt; {</p>
+
+<p class=MsoNormal>      const order = {open:1, pending:2, 'to-return':3,
+completed:4};</p>
+
+<p class=MsoNormal>      return order[a.status] - order[b.status];</p>
+
+<p class=MsoNormal>    });</p>
+
+<p class=MsoNormal>    renderAllJobs(tbody, boroughName);</p>
+
+<p class=MsoNormal>  });</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>  jobs[boroughName].forEach(job =&gt; renderJobRow(tbody,
+job, boroughName));</p>
+
+<p class=MsoNormal>}</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>function renderJobRow(tbody, job, boroughName) {</p>
+
+<p class=MsoNormal>  const row = document.createElement('tr');</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>  const siteCell = document.createElement('td');</p>
+
+<p class=MsoNormal>  const siteInput = document.createElement('input');</p>
+
+<p class=MsoNormal>  siteInput.value = job.site;</p>
+
+<p class=MsoNormal>  siteInput.addEventListener('input', () =&gt; { job.site =
+siteInput.value; saveJobs(); });</p>
+
+<p class=MsoNormal>  siteCell.appendChild(siteInput);</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>  const troubleCell = document.createElement('td');</p>
+
+<p class=MsoNormal>  const troubleInput = document.createElement('input');</p>
+
+<p class=MsoNormal>  troubleInput.value = job.trouble;</p>
+
+<p class=MsoNormal>  troubleInput.addEventListener('input', () =&gt; {
+job.trouble = troubleInput.value; saveJobs(); });</p>
+
+<p class=MsoNormal>  troubleCell.appendChild(troubleInput);</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>  const statusCell = document.createElement('td');</p>
+
+<p class=MsoNormal>  const statusSelect = document.createElement('select');</p>
+
+<p class=MsoNormal>  ['open','completed','pending','to-return'].forEach(s =&gt;
+{</p>
+
+<p class=MsoNormal>    const opt = document.createElement('option');</p>
+
+<p class=MsoNormal>    opt.value = s;</p>
+
+<p class=MsoNormal>    opt.textContent = s.charAt(0).toUpperCase() +
+s.slice(1);</p>
+
+<p class=MsoNormal>    if (job.status === s) opt.selected = true;</p>
+
+<p class=MsoNormal>    statusSelect.appendChild(opt);</p>
+
+<p class=MsoNormal>  });</p>
+
+<p class=MsoNormal>  const statusLabel = document.createElement('span');</p>
+
+<p class=MsoNormal>  statusLabel.textContent = job.status.toUpperCase();</p>
+
+<p class=MsoNormal>  statusLabel.className = 'status-' + job.status;</p>
+
+<p class=MsoNormal>  statusSelect.addEventListener('change', () =&gt; {</p>
+
+<p class=MsoNormal>    job.status = statusSelect.value;</p>
+
+<p class=MsoNormal>    statusLabel.textContent = job.status.toUpperCase();</p>
+
+<p class=MsoNormal>    statusLabel.className = 'status-' + job.status;</p>
+
+<p class=MsoNormal>    saveJobs();</p>
+
+<p class=MsoNormal>  });</p>
+
+<p class=MsoNormal>  statusCell.appendChild(statusSelect);</p>
+
+<p class=MsoNormal>  statusCell.appendChild(statusLabel);</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>  const notesCell = document.createElement('td');</p>
+
+<p class=MsoNormal>  const notesInput = document.createElement('textarea');</p>
+
+<p class=MsoNormal>  notesInput.value = job.notes;</p>
+
+<p class=MsoNormal>  notesInput.addEventListener('input', () =&gt; { job.notes
+= notesInput.value; saveJobs(); });</p>
+
+<p class=MsoNormal>  notesCell.appendChild(notesInput);</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>  row.appendChild(siteCell);</p>
+
+<p class=MsoNormal>  row.appendChild(troubleCell);</p>
+
+<p class=MsoNormal>  row.appendChild(statusCell);</p>
+
+<p class=MsoNormal>  row.appendChild(notesCell);</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>  tbody.appendChild(row);</p>
+
+<p class=MsoNormal>}</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>function renderAllJobs(tbody, boroughName) {</p>
+
+<p class=MsoNormal>  tbody.innerHTML = '';</p>
+
+<p class=MsoNormal>  jobs[boroughName].forEach(job =&gt; renderJobRow(tbody,
+job, boroughName));</p>
+
+<p class=MsoNormal>}</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>['Queens','Brooklyn','Manhattan','Bronx'].forEach(name =&gt;
+{</p>
+
+<p class=MsoNormal>  const div = document.getElementById(name);</p>
+
+<p class=MsoNormal>  createBoroughSection(div, name);</p>
+
+<p class=MsoNormal>});</p>
+
+<p class=MsoNormal>&lt;/script&gt;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>&lt;/body&gt;</p>
+
+<p class=MsoNormal>&lt;/html&gt;</p>
+
+</div>
+
+</body>
+
+</html>
